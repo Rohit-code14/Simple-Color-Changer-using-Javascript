@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(66, 66, 66);
+}
+h1{
+    text-align: center;
+    color:aqua;
+    margin-top: 75px;
+    
+}
+h3{
+    text-align: center;
+    color:aqua;
+    margin-top: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+.container div{
+    border: 5px;
+    border-radius: 10%;
+}
+.red{
+    display: inline-block;
+    background-color: red;
+    height: 20px;
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+}
+.blue{
+    display: inline-block;
+    background-color: rgb(0, 0, 255);
+    height: 20px;
+    width: 100px;   
+    padding: 20px;
+    margin: 10px;
+}
+.green{
+    display: inline-block;
+    background-color: green;
+    height: 20px;
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+}
+.pink{
+    display: inline-block;
+    
+    background-color: pink;
+    height: 20px;
+    width: 100px;
+    padding: 20px;
+   
+}
+.red,.blue,.green,.pink ,.container2 :hover{
+    cursor: pointer;
+
+}
+/* .pink : :hover{
+    cursor: pointer;
+} */
+.container2{
+    position: absolute;
+    background-color: rgb(66, 66, 66);
+    min-width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-left: 40%;
+    margin-top: 30px;
+    align-self: center;
+}
